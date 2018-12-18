@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>Java环境变量</title>
+      <link href="/2018/12/18/Java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+      <url>/2018/12/18/Java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Java之HelloWorld</title>
+      <link href="/2018/12/18/Java%E4%B9%8BHelloWorld/"/>
+      <url>/2018/12/18/Java%E4%B9%8BHelloWorld/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"></p><pre><code class="java">public class HelloWorld{    public static void main(String[] args){        System.out.println(&quot;HelloWorld&quot;);    }}</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java从入门到放弃 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>1st Blog</title>
+      <link href="/2018/12/13/First-Blog/"/>
+      <url>/2018/12/13/First-Blog/</url>
+      
+        <content type="html"><![CDATA[<h2 id="&#x7B2C;&#x4E00;&#x7BC7;hexo&#x535A;&#x5BA2;"><a href="#&#x7B2C;&#x4E00;&#x7BC7;hexo&#x535A;&#x5BA2;" class="headerlink" title="&#x7B2C;&#x4E00;&#x7BC7;hexo&#x535A;&#x5BA2;"></a>&#x7B2C;&#x4E00;&#x7BC7;hexo&#x535A;&#x5BA2;</h2><p>##&#x4E3B;&#x8981;&#x662F;&#x7528;&#x6765;&#x7EC3;&#x4E60;hexo&#x7684;&#x8BED;&#x6CD5;</p><ul><li>&#x6807;&#x9898;</li><li>&#x6BB5;&#x843D;</li><li>&#x4EE3;&#x7801;&#x5757;</li><li>&#x5217;&#x8868;</li></ul><p>#&#x4E00;&#x7EA7;&#x6807;&#x9898;</p><p>##&#x4E8C;&#x7EA7;&#x6807;&#x9898;</p><p>###&#x4E09;&#x7EA7;&#x6807;&#x9898;</p><p>####&#x56DB;&#x7EA7;&#x6807;&#x9898; </p><p>&#x8FD9;&#x662F;&#x7B2C;&#x4E00;&#x6BB5;<br>&#x7B2C;&#x4E8C;&#x6BB5;&#xFF1F;</p><pre><code class="java">public class helloworld{    public static void main(STring[] args){        Sysout.out.println(&quot;HelloWorld!!!&quot;);    } }</code></pre><pre><code class="c">#include&lt;stdio.sh&gt;int main(){    printf(&quot;This is a C pragrame&quot;);    return 0;}</code></pre><p>&#x6709;&#x5E8F;&#x5217;&#x8868;</p><ol><li>first</li><li>second</li><li>third</li><li>fourth</li></ol><p>[x]choice</p><p>[]none</p><p>[]what</p><p>A-&gt;B: Normal line<br>B&#x2013;&gt;C: Dashed line<br>C-&gt;&gt;D: Open arrow<br>D&#x2013;&gt;&gt;A: Dashed open arrow</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> program </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/12/12/hello-world/"/>
+      <url>/2018/12/12/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>vlan</title>
+      <link href="/2018/02/13/vlan/"/>
+      <url>/2018/02/13/vlan/</url>
+      
+        <content type="html"><![CDATA[<p>#native vlan&#x7684;&#x4F7F;&#x7528;&#xFF1A;</p><ol><li>&#x8FDB;&#x5165;&#x63A5;&#x53E3;&#x6A21;&#x5F0F;&#x4E2D;&#x7EE7;&#x7684;&#x5C01;&#x88C5;&#x7C7B;&#x578B;&#x662F;802.1Q<br><code>`</code><br>interface f0/12</li></ol><p>switchport mode trunk</p><p>switchport trunk encap dot1q</p><pre><code>2. &#x8BBE;&#x7F6E;&#x90A3;&#x4E2A;vlan&#x4F5C;&#x4E3A;&#x672C;&#x5F81;vlan</code></pre><p>switchport trunk native vlan vlan-id</p><p>vlan-id&#xFF1A;1-4096</p><pre><code>3. &#x67E5;&#x770B;&#x914D;&#x7F6E;&#x7ED3;&#x679C;</code></pre><p>show interface f0/12 switchport</p><pre><code>native vlan &#x662F;Cisco&#x4E2D;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;vlan1&#x3002;&#x5982;&#x679C;&#x53D1;&#x51FA;&#x7684;&#x5E27;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;tag&#x7684;&#x8BDD;&#xFF0C;&#x5C31;&#x52A0;&#x4E0A;native vlan&#x7684;tag&#x503C;&#x53D1;&#x9001;&#x51FA;&#x53BB;&#x3002;&#x8FD9;&#x5C31;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#x4E24;&#x7AEF;&#x7684;native vlan &#x5FC5;&#x987B;&#x662F;&#x4E00;&#x81F4;&#x7684;&#x539F;&#x56E0;&#x3002;&#x5982;&#x679C;&#x67D0;&#x4E2A;&#x6570;&#x636E;&#x5E27;&#x7684;vlan id&#x4E0E;&#x51FA;&#x7AEF;&#x53E3;&#x7684;native vlan&#x53F7;&#x76F8;&#x540C;&#xFF0C;&#x8BE5;&#x6570;&#x636E;&#x5305;&#x5C31;&#x6309;&#x7167;&#x672A;&#x6807;&#x8BB0;&#x53D1;&#x9001;&#x3002;&#x5C01;&#x88C5;&#x7C7B;&#x578B;&#x4E3A;isl&#x7684;&#x672A;&#x52A0;&#x6807;&#x8BB0;&#x7684;&#x6570;&#x636E;&#x5C06;&#x4F1A;&#x4E22;&#x5F03;&#x3002;native vlan&#x53EF;&#x4EE5;&#x88AB;&#x6307;&#x5B9A;&#x6210;&#x4EFB;&#x610F;&#x7684;vlan &#x53F7;&#xFF0C;&#x5B83;&#x4E0D;&#x4F9D;&#x8D56;&#x4E8E;&#x7BA1;&#x7406;vlan&#x3002;&#x534E;&#x4E3A;  &#x4EE5;&#x592A;&#x7F51;&#x7AEF;&#x53E3;&#x6709;&#x4E09;&#x79CD;&#x7C7B;&#x578B;&#xFF1A;Access&#x3001;Hybrid&#x3001;Trunk&#x3002;  Access&#x7C7B;&#x578B;&#x7684;&#x7AEF;&#x53E3;&#x53EA;&#x80FD;&#x5C5E;&#x4E8E;1&#x4E2A;VLAN&#x3002;&#x4E00;&#x822C;&#x7528;&#x4E8E;&#x8FDE;&#x63A5;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x7AEF;&#x53E3;&#xFF1B;  Trunk&#x7C7B;&#x578B;&#x7684;&#x7AEF;&#x53E3;&#x53EF;&#x4EE5;&#x5C5E;&#x4E8E;&#x591A;&#x4E2A;VLAN&#xFF0C;&#x53EF;&#x4EE5;&#x63A5;&#x6536;&#x548C;&#x53D1;&#x9001;&#x591A;&#x4E2A;VLAN&#x7684;&#x62A5;&#x6587;&#xFF0C;&#x4E00;&#x822C;&#x7528;&#x4E8E;&#x4EA4;&#x6362;&#x673A;&#x4E4B;&#x95F4;&#x7684;&#x8FDE;&#x63A5;&#x7AEF;&#x53E3;&#xFF1B;  Hybrid&#x7AEF;&#x53E3;&#x53EF;&#x4EE5;&#x5C5E;&#x4E8E;&#x591A;&#x4E2A;VLAN&#xFF0C;&#x53EF;&#x4EE5;&#x63A5;&#x6536;&#x548C;&#x53D1;&#x9001;&#x591A;&#x4E2A;VLAN&#x7684;&#x62A5;&#x6587;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x4EA4;&#x6362;&#x673A;&#x4E4B;&#x95F4;&#x7684;&#x8FDE;&#x63A5;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x8FDE;&#x63A5;&#x7528;&#x6237;&#x8BA1;&#x7B97;&#x673A;&#x3002;  Hybrid&#x7AEF;&#x53E3;&#x548C;Trunk&#x7AEF;&#x53E3;&#x7684;&#x4E0D;&#x540C;&#x6307;&#x51FA;&#x5728;&#x4E8E;Hybrid&#x7AEF;&#x53E3;&#x53EF;&#x4EE5;&#x5141;&#x8BB8;&#x591A;&#x4E2A;VLAn&#x7684;&#x62A5;&#x6587;&#x53D1;&#x9001;&#x65F6;&#x4E0D;&#x6253;&#x6807;&#x7B7E;&#xFF0C;&#x800C;Trunk&#x7AEF;&#x53E3;&#x53EA;&#x5141;&#x8BB8;&#x7F3A;&#x7701;VLAN&#xFF08;&#x672C;&#x5F81;VLAn&#xFF09;&#x7684;&#x62A5;&#x6587;&#x53D1;&#x9001;&#x65F6;&#x4E0D;&#x6253;&#x6807;&#x7B7E;&#x3002;  Access&#x7AEF;&#x53E3;&#x53EA;&#x5C5E;&#x4E8E;1&#x4E2A;1VLAN&#xFF0C;&#x6240;&#x4EE5;&#x5B83;&#x7684;&#x7F3A;&#x7701;VLAN&#x5C31;&#x662F;&#x5B83;&#x6240;&#x5728;&#x7684;VLAN&#xFF0C;&#x4E0D;&#x7528;&#x8BBE;&#x7F6E;&#xFF1B;Hybrid&#x7AEF;&#x53E3;&#x548C;TRunkduank&#x5C5E;&#x4E8E;&#x591A;&#x4E2A;VLAn&#xFF0C;&#x6240;&#x4EE5;&#x9700;&#x8981;&#x8BBE;&#x7F6E;&#x7F3A;&#x7701;VLAn&#x3002;&#x7F3A;&#x7701;&#x60C5;&#x51B5;&#x4E0B;,Hybrid&#x7AEF;&#x53E3;&#x548C;Trunk&#x7AEF;&#x53E3;&#x7684;&#x7F3A;&#x7701;VLAn&#x4E3A;Vlan1,&#x3002;&#x5982;&#x679C;&#x8BBE;&#x7F6E;&#x4E86;&#x7AEF;&#x53E3;&#x7684;&#x7F3A;&#x7701;VLAN ID&#xFF0C;&#x5F53;&#x7AEF;&#x53E3;=&#x63A5;&#x6536;&#x5230;&#x4E0D;&#x5E26;VLAN tag&#x7684;&#x62A5;&#x6587;&#x540E;&#xFF0C;&#x5C06;&#x62A5;&#x6587;&#x8F6C;&#x53D1;&#x5230;&#x5C5E;&#x4E8E;&#x7F3A;&#x7701;VLAN&#x7684;&#x7AEF;&#x53E3;&#xFF1B;&#x5F53;&#x7AEF;&#x53E3;&#x53D1;&#x9001;&#x5E26;VLAn tag&#x7684;&#x62A5;&#x6587;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x8BE5;&#x62A5;&#x6587;&#x7684;VLAn ID&#x4E0E;&#x7AEF;&#x53E3;&#x7684;&#x7F3A;&#x7701;&#x7684;VLAn &#xFF29;&#xFF24;&#x76F8;&#x540C;&#xFF0C;&#x5219;&#x7CFB;&#x7EDF;&#x5C06;&#x53BB;&#x6389;&#x62A5;&#x6587;&#x7684;&#xFF36;&#xFF2C;&#xFF21;&#xFF2E;&#x3000;&#xFF54;&#xFF41;&#xFF47;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x53D1;&#x9001;&#x8BE5;&#x62A5;&#x6587;&#x3002;&#xFF28;&#xFF59;&#xFF42;&#xFF52;&#xFF49;&#xFF44;&#x7AEF;&#x53E3;&#x6216;&#xFF34;&#xFF52;&#xFF55;&#xFF4E;&#xFF4B;&#x7AEF;&#x53E3;&#x7684;&#x7F3A;&#x7701;&#xFF36;&#xFF2C;&#xFF21;&#xFF4E;&#x3000;&#xFF29;&#xFF24;&#x548C;&#x9879;&#x94FE;&#x7684;&#x5BF9;&#x7AEF;&#x4EA4;&#x6362;&#x673A;&#x7684;&#xFF28;&#xFF59;&#xFF42;&#xFF52;&#xFF49;&#xFF44;&#x7AEF;&#x53E3;&#x6216;&#xFF34;&#xFF52;&#xFF55;&#xFF4E;&#xFF4B;&#x7AEF;&#x53E3;&#x7684;&#x7F3A;&#x7701;&#xFF36;&#xFF2C;&#xFF21;&#xFF4E;&#x3000;&#xFF29;&#xFF24;&#x5FC5;&#x987B;&#x4E00;&#x81F4;&#xFF0C;&#x5426;&#x5219;&#x62A5;&#x6587;&#x5C06;&#x4E0D;&#x80FD;&#x6B63;&#x786E;&#x4F20;&#x8F93;&#x3002;&#x5B9E;&#x4F8B;&#xFF0C;&#x534E;&#x4E3A;&#x7684;&#xFF28;&#xFF59;&#xFF42;&#xFF52;&#xFF49;&#xFF44;&#x6A21;&#x5F0F;```c[Switch-Ethernet0/1]&#x3000;int e0/1[Switch-Ethernet0/1] port link-type hybrid[Switch-Ethernet0/1] port hybrid pvid vlan 10[Switch-Ethernet0/1] port hybrid vlan 10 20 untagged[Switch-Ethernet0/1] int e0/2[Switch-Ethernet0/1] port link-type hybrid[Switch-Ethernet0/1] port hybrid pvid vlan 20[Switch-Ethernet0/1] port hybrid vlan 10 20 untagged</code></pre><p>  &#x6B64;&#x65F6;&#x63A5;&#x53E3;e0/1&#x548C;e0/2&#x4E0B;&#x7684;&#x6240;&#x63A5;&#x7684;PC&#x662F;&#x53EF;&#x4EE5;&#x4E92;&#x76F8;&#x901A;&#x4FE1;&#x7684;&#xFF0C;&#x4F46;&#x540C;&#x65F6;&#x7684;&#x6570;&#x636E;&#x6240;&#x8D70;&#x7684;&#x5F80;&#x8FD4;vlan&#x662F;&#x4E0D;&#x540C;&#x7684;&#x3002;</p><p>  &#x4EE5;&#x4E0B;&#x4EE5;int e0/1&#x4E0B;&#x7684;&#x6240;&#x8FDE;&#x63A5;&#x7684;pc1&#x8BBF;&#x95EE;int e0/2&#x4E0B;&#x6240;&#x8FDE;&#x63A5;&#x7684;pc2&#x4E3A;&#x4F8B;&#xFF1A;</p><pre><code>pc1&#x6240;&#x53D1;&#x9001;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x7531;int e0/1&#x6240;&#x5728;&#x7684;pvid vlan10&#x5C01;&#x88C5;vlan10&#x7684;&#x6807;&#x8BB0;&#x540E;&#x9001;&#x5165;&#x4EA4;&#x6362;&#x673A;&#xFF0C;&#x4EA4;&#x6362;&#x673A;&#x53D1;&#x73B0;int e0/2&#x5141;&#x8BB8;vlan 10&#x7684;&#x6570;&#x636E;&#x901A;&#x8FC7;&#xFF0C;&#x4E8E;&#x662F;&#x6570;&#x636E;&#x88AB;&#x8F6C;&#x53D1;&#x5230;int e0/2&#x4E0A;&#xFF0C;&#x7531;&#x4E8E;int e0/2&#x4E0A;vlan 10&#x662F;untagged&#x7684;&#xFF0C;&#x4E8E;&#x662F;&#x4EA4;&#x6362;&#x673A;&#x6B64;&#x65F6;&#x53D6;&#x51FA;&#x6570;&#x636E;&#x5305;&#x4E0A;&#x7684;vlan&#x7684;&#x6807;&#x8BB0;&#xFF0C;&#x4EE5;&#x666E;&#x901A;&#x62A5;&#x7684;&#x5F62;&#x5F0F;&#x53D1;&#x7ED9;pc2&#xFF0C;&#x6B64;&#x65F6;pc1-&gt;pc2&#x8D70;&#x7684;&#x662F;vlan10&#x7684;&#x3002;&#x7136;&#x540E;pc2&#x7ED9;pc1&#x56DE;&#x5305;&#xFF0C;pc2&#x6240;&#x53D1;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x7531;int e0/2&#x5750;&#x5728;&#x7684;pvid 20&#x5C01;&#x88C5;vlan20&#x7684;&#x6807;&#x8BB0;&#x540E;&#x9001;&#x5165;&#x4EA4;&#x6362;&#x673A;&#xFF0C;&#x4EA4;&#x6362;&#x673A;&#x53D1;&#x73B0;int e0/1&#x5141;&#x8BB8;vlan 20&#x7684;&#x6570;&#x636E;&#x901A;&#x8FC7;&#xFF0C;&#x4E8E;&#x662F;&#x6570;&#x636E;&#x88AB;&#x8F6C;&#x53D1;&#x5230;int e0/1&#x4E0A;&#xFF0C;&#x7531;&#x4E8E;int e0/1&#x4E0A;&#x7684;vlan20 &#x662F;untagged&#x7684;&#xFF0C;&#x4E8E;&#x662F;&#x4EA4;&#x6362;&#x673A;&#x6B64;&#x65F6;&#x53BB;&#x9664;&#x6570;&#x636E;&#x5305;&#x4E0A;&#x7684;vlan20 &#x7684;&#x6807;&#x8BB0;&#xFF0C;&#x4EE5;&#x666E;&#x901A;&#x5305;&#x7684;&#x65B9;&#x5F0F;&#x7ED9;pc1&#xFF0C;&#x6B64;&#x65F6;pc2-&gt;pc1&#x8D70;&#x7684;&#x662F;vlan20&#x3002;</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+  
+  
+</search>

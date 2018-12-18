@@ -6,27 +6,27 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   
-  <title>Java之HelloWorld | Hexo</title>
+  <title>Java之HelloWorld | 个人博客作业</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="12345public class HelloWorld&amp;#123;    public static void main(String[] args)&amp;#123;        System.out.println(&quot;HelloWorld&quot;);    &amp;#125;&amp;#125;">
+  <meta name="description" content="public class HelloWorld{     public static void main(String[] args){         System.out.println(&amp;quot;HelloWorld&amp;quot;);     } }           document.querySelectorAll(&apos;.github-emoji&apos;)           .forEac">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java之HelloWorld">
 <meta property="og:url" content="http://yoursite.com/2018/12/18/Java之HelloWorld/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="12345public class HelloWorld&amp;#123;    public static void main(String[] args)&amp;#123;        System.out.println(&quot;HelloWorld&quot;);    &amp;#125;&amp;#125;">
+<meta property="og:site_name" content="个人博客作业">
+<meta property="og:description" content="public class HelloWorld{     public static void main(String[] args){         System.out.println(&amp;quot;HelloWorld&amp;quot;);     } }           document.querySelectorAll(&apos;.github-emoji&apos;)           .forEac">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-18T01:03:30.944Z">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg">
+<meta property="og:updated_time" content="2018-12-18T03:39:41.702Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java之HelloWorld">
-<meta name="twitter:description" content="12345public class HelloWorld&amp;#123;    public static void main(String[] args)&amp;#123;        System.out.println(&quot;HelloWorld&quot;);    &amp;#125;&amp;#125;">
+<meta name="twitter:description" content="public class HelloWorld{     public static void main(String[] args){         System.out.println(&amp;quot;HelloWorld&amp;quot;);     } }           document.querySelectorAll(&apos;.github-emoji&apos;)           .forEac">
+<meta name="twitter:image" content="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="个人博客作业" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
   
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/common.css">
 <link rel="stylesheet" href="/css/nav.css">
@@ -151,8 +151,32 @@
             
         </div>
         <div class="content" style="overflow: auto">
-            <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+            <p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"></p>
+<pre><code class="java">public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println(&quot;HelloWorld&quot;);
+    }
+}
+</code></pre>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
         <div class="post-reply">
             
@@ -192,7 +216,7 @@
 <!-- for code block highlight --> 
 <!-- theme.block_highlight -->
 <!-- we do not guarantee the char sequences spell right, usr himself do it -->
-<link rel="stylesheet" href="/css/highlight_rainbow.css">
+<link rel="stylesheet" href="/css/highlight_github.css">
 <script src="/js/highlight.min.js"></script>
 <script type="text/javascript"> hljs.initHighlightingOnLoad();</script>
 
@@ -227,5 +251,20 @@
 <script src="/js/search_core.js"></script>
 <script src="/js/script.js"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
