@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>vlan | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="#native vlan的使用：  进入接口模式中继的封装类型是802.1Q 12345interface f0/12switchport mode trunkswitchport trunk encap dot1q  设置那个vlan作为本征vlan 123switchport trunk native vlan vlan-id    vlan-id：1-4096  查看配置结果 1show i">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vlan">
+<meta property="og:url" content="http://yoursite.com/2018/02/13/vlan/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#native vlan的使用：  进入接口模式中继的封装类型是802.1Q 12345interface f0/12switchport mode trunkswitchport trunk encap dot1q  设置那个vlan作为本征vlan 123switchport trunk native vlan vlan-id    vlan-id：1-4096  查看配置结果 1show i">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-12-13T04:57:18.546Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="vlan">
+<meta name="twitter:description" content="#native vlan的使用：  进入接口模式中继的封装类型是802.1Q 12345interface f0/12switchport mode trunkswitchport trunk encap dot1q  设置那个vlan作为本征vlan 123switchport trunk native vlan vlan-id    vlan-id：1-4096  查看配置结果 1show i">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+</html>
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Diskobólos</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>vlan</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-shadow-circle-512.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Diskobólos</span>
+                <span class="post-date sub-title">at: 2018-02-13</span>
+            </div>
+            
+                <div>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <p>#native vlan的使用：</p>
+<ol>
+<li><p>进入接口模式中继的封装类型是802.1Q</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">interface f0/12</span><br><span class="line"></span><br><span class="line">switchport mode trunk</span><br><span class="line"></span><br><span class="line">switchport trunk encap dot1q</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置那个vlan作为本征vlan</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">switchport trunk native vlan vlan-id</span><br><span class="line">    </span><br><span class="line">vlan-id：1-4096</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看配置结果</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show interface f0/12 switchport</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>native vlan 是Cisco中的概念，默认是vlan1。如果发出的帧，如果没有tag的话，就加上native vlan的tag值发送出去。这就是为什么两端的native vlan 必须是一致的原因。如果某个数据帧的vlan id与出端口的native vlan号相同，该数据包就按照未标记发送。封装类型为isl的未加标记的数据将会丢弃。native vlan可以被指定成任意的vlan 号，它不依赖于管理vlan。</p>
+<p>华为</p>
+<p>  以太网端口有三种类型：Access、Hybrid、Trunk。</p>
+<p>  Access类型的端口只能属于1个VLAN。一般用于连接计算机的端口；</p>
+<p>  Trunk类型的端口可以属于多个VLAN，可以接收和发送多个VLAN的报文，一般用于交换机之间的连接端口；</p>
+<p>  Hybrid端口可以属于多个VLAN，可以接收和发送多个VLAN的报文，可以用于交换机之间的连接，也可以用于连接用户计算机。</p>
+<p>  Hybrid端口和Trunk端口的不同指出在于Hybrid端口可以允许多个VLAn的报文发送时不打标签，而Trunk端口只允许缺省VLAN（本征VLAn）的报文发送时不打标签。</p>
+<p>  Access端口只属于1个1VLAN，所以它的缺省VLAN就是它所在的VLAN，不用设置；</p>
+<p>Hybrid端口和TRunkduank属于多个VLAn，所以需要设置缺省VLAn。缺省情况下,Hybrid端口和Trunk端口的缺省VLAn为Vlan1,。</p>
+<p>如果设置了端口的缺省VLAN ID，当端口=接收到不带VLAN tag的报文后，将报文转发到属于缺省VLAN的端口；</p>
+<p>当端口发送带VLAn tag的报文时，如果该报文的VLAn ID与端口的缺省的VLAn ＩＤ相同，则系统将去掉报文的ＶＬＡＮ　ｔａｇ，然后再发送该报文。</p>
+<p>Ｈｙｂｒｉｄ端口或Ｔｒｕｎｋ端口的缺省ＶＬＡｎ　ＩＤ和项链的对端交换机的Ｈｙｂｒｉｄ端口或Ｔｒｕｎｋ端口的缺省ＶＬＡｎ　ＩＤ必须一致，否则报文将不能正确传输。</p>
+<p>实例，华为的Ｈｙｂｒｉｄ模式<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[Switch-Ethernet0/<span class="number">1</span>]　<span class="keyword">int</span> e0/<span class="number">1</span></span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] port link-type hybrid</span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] port hybrid pvid vlan <span class="number">10</span></span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] port hybrid vlan <span class="number">10</span> <span class="number">20</span> untagged</span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] <span class="keyword">int</span> e0/<span class="number">2</span></span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] port link-type hybrid</span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] port hybrid pvid vlan <span class="number">20</span></span><br><span class="line"></span><br><span class="line">[Switch-Ethernet0/<span class="number">1</span>] port hybrid vlan <span class="number">10</span> <span class="number">20</span> untagged</span><br></pre></td></tr></table></figure></p>
+<p>  此时接口e0/1和e0/2下的所接的PC是可以互相通信的，但同时的数据所走的往返vlan是不同的。</p>
+<p>  以下以int e0/1下的所连接的pc1访问int e0/2下所连接的pc2为例：</p>
+<pre><code>pc1所发送的数据，由int e0/1所在的pvid vlan10封装vlan10的标记后送入交换机，交换机发现int e0/2允许vlan 10的数据通过，于是数据被转发到int e0/2上，由于int e0/2上vlan 10是untagged的，于是交换机此时取出数据包上的vlan的标记，以普通报的形式发给pc2，此时pc1-&gt;pc2走的是vlan10的。然后pc2给pc1回包，pc2所发的数据，由int e0/2坐在的pvid 20封装vlan20的标记后送入交换机，交换机发现int e0/1允许vlan 20的数据通过，于是数据被转发到int e0/1上，由于int e0/1上的vlan20 是untagged的，于是交换机此时去除数据包上的vlan20 的标记，以普通包的方式给pc1，此时pc2-&gt;pc1走的是vlan20。
+</code></pre>
+        </div>
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTE4Ni81NzUz">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+
+<!-- for code block highlight --> 
+<!-- theme.block_highlight -->
+<!-- we do not guarantee the char sequences spell right, usr himself do it -->
+<link rel="stylesheet" href="/css/highlight_rainbow.css">
+<script src="/js/highlight.min.js"></script>
+<script type="text/javascript"> hljs.initHighlightingOnLoad();</script>
+
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Songxin 2018
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>
