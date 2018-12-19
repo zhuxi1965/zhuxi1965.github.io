@@ -3,6 +3,58 @@
   
     
     <entry>
+      <title>07 数组的定义和使用</title>
+      <link href="/2018/12/22/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
+      <url>/2018/12/22/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/images/2018/12/19/XpGZDHibwm/1424849099715.jpg" alt="alt post-cover"><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/j2zAKcD6WZ/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A81.png" alt="图片1"><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Mwtx7IEAWy/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A82.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/OCSSrrhJ96/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A83.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/li5QzlFEh5/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A84.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/UhgJkKgCMI/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A85.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/QBsrDGO91r/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A86.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/0qV0HzfkMt/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A87.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/i8kgOZZ6DR/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A88.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/CVerhm1Uar/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A89.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/jx8D4pxnWu/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A810.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/amgaHl0TVq/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A811.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Tzw28vLRPD/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A812.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/TbrntGgAaF/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A813.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/IOIAk5J9PQ/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A814.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/9DzzQjTHFS/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A815.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java从入门到放弃 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java从入门到放弃 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>制作linuxUSBLive系统盘</title>
+      <link href="/2018/12/20/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF/"/>
+      <url>/2018/12/20/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/19/pvzPfvgRlT/bg.jpg" alt="alt post-cover"></p><h1 id="制作linuxUSBLive系统盘"><a href="#制作linuxUSBLive系统盘" class="headerlink" title="制作linuxUSBLive系统盘"></a>制作linuxUSBLive系统盘</h1><h2 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h2><ol><li>下载kalilinux （ISO镜像）</li><li>下载Win32 Disk </li><li><p>8G左右的U盘<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""></p><h2 id="二、具体步骤："><a href="#二、具体步骤：" class="headerlink" title="二、具体步骤："></a>二、具体步骤：</h2></li><li><p>Making a Kali Bootable USB Drive</p></li></ol><ul><li>将U盘插入电脑，注意U盘的盘符 </li><li>打开Win32 Disk软件，选择kalinux的iso镜像<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/hwXNTEk4qC/KaliUSB2.png" alt=""></li><li>选择U盘，写入<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/qvwdJKuTZC/KaliUSB3.png" alt=""></li><li>待写入完成，拔出U盘</li></ul><ol start="2"><li>Kali Linux Live USB Persistence</li></ol><ul><li>将U盘插入电脑，选择引导从U盘启动</li><li>出现选择界面时选择LIVE USB persistence选项</li><li>进入系统后，为系统添加一个persistence分区</li><li>选择磁盘工具，新建分区。分区类型为ext3，名字为persistence</li><li>创建一个挂载点，并将新分区挂载<br>（注：可用fdisk -l 来查看分区情况）</li><li>将内容”/ union” 追加到persistence分区的persistence.conf文件中<br>步骤2.6-2.7参考命令<pre><code>mkdir -p /mnt/my_usbmount /dev/sdb3 /mnt/my_usbecho &quot;/ union&quot; &gt; /mnt/my_usb/persistence.confumount /dev/sdb3</code></pre></li><li>重启</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 渗透工具 </tag>
+            
+            <tag> Kali </tag>
+            
+            <tag> 系统安装 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>防火墙</title>
       <link href="/2018/12/19/%E9%98%B2%E7%81%AB%E5%A2%99/"/>
       <url>/2018/12/19/%E9%98%B2%E7%81%AB%E5%A2%99/</url>
@@ -31,10 +83,10 @@
     
     <entry>
       <title>制作linuxUSBLive系统盘</title>
-      <link href="/2018/12/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF/"/>
-      <url>/2018/12/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF/</url>
+      <link href="/2018/12/19/%E6%A8%A1%E6%9D%BF/"/>
+      <url>/2018/12/19/%E6%A8%A1%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"></p><h1 id="制作linuxUSBLive系统盘"><a href="#制作linuxUSBLive系统盘" class="headerlink" title="制作linuxUSBLive系统盘"></a>制作linuxUSBLive系统盘</h1><h2 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h2><ol><li>下载kalilinux （ISO镜像）</li><li>下载Win32 Disk </li><li><p>8G左右的U盘<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""></p><h2 id="二、具体步骤："><a href="#二、具体步骤：" class="headerlink" title="二、具体步骤："></a>二、具体步骤：</h2></li><li><p>Making a Kali Bootable USB Drive</p></li></ol><ul><li>将U盘插入电脑，注意U盘的盘符 </li><li>打开Win32 Disk软件，选择kalinux的iso镜像<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/hwXNTEk4qC/KaliUSB2.png" alt=""></li><li>选择U盘，写入<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/qvwdJKuTZC/KaliUSB3.png" alt=""></li><li>待写入完成，拔出U盘</li></ul><ol start="2"><li>Kali Linux Live USB Persistence</li></ol><ul><li>将U盘插入电脑，选择引导从U盘启动</li><li>出现选择界面时选择LIVE USB persistence选项</li><li>进入系统后，为系统添加一个persistence分区</li><li>选择磁盘工具，新建分区。分区类型为ext3，名字为persistence</li><li>创建一个挂载点，并将新分区挂载<br>（注：可用fdisk -l 来查看分区情况）</li><li>将内容”/ union” 追加到persistence分区的persistence.conf文件中<br>步骤2.6-2.7参考命令<pre><code>mkdir -p /mnt/my_usbmount /dev/sdb3 /mnt/my_usbecho &quot;/ union&quot; &gt; /mnt/my_usb/persistence.confumount /dev/sdb3</code></pre></li><li>重启</li></ul>]]></content>
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"></p><h1 id="制作linuxUSBLive系统盘"><a href="#制作linuxUSBLive系统盘" class="headerlink" title="制作linuxUSBLive系统盘"></a>制作linuxUSBLive系统盘</h1><h2 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h2><ol><li>下载kalilinux （ISO镜像）</li><li>下载Win32 Disk </li><li><p>8G左右的U盘</p><h2 id="二、具体步骤："><a href="#二、具体步骤：" class="headerlink" title="二、具体步骤："></a>二、具体步骤：</h2></li><li><p>Making a Kali Bootable USB Drive</p></li></ol><ul><li>将U盘插入电脑，注意U盘的盘符 </li><li>打开Win32 Disk软件，选择kalinux的iso镜像</li><li>选择U盘，写入</li><li>待写入完成，拔出U盘</li></ul><ol start="2"><li>Kali Linux Live USB Persistence</li></ol><ul><li>将U盘插入电脑，选择引导从U盘启动</li><li>出现选择界面时选择LIVE USB persistence选项</li><li>进入系统后，为系统添加一个persistence分区</li><li>选择磁盘工具，新建分区。分区类型为ext3，名字为persistence</li><li>创建一个挂载点，并将新分区挂载<br>（注：可用fdisk -l 来查看分区情况）</li><li>将内容”/ union” 追加到persistence分区的persistence.conf文件中<br>步骤2.6-2.7参考命令<pre><code>mkdir -p /mnt/my_usbmount /dev/sdb3 /mnt/my_usbecho &quot;/ union&quot; &gt; /mnt/my_usb/persistence.confumount /dev/sdb3</code></pre></li><li>重启</li></ul>]]></content>
       
       
       <categories>
@@ -84,105 +136,11 @@
     </entry>
     
     <entry>
-      <title>制作linuxUSBLive系统盘</title>
-      <link href="/2018/12/19/%E6%A8%A1%E6%9D%BF/"/>
-      <url>/2018/12/19/%E6%A8%A1%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"></p><h1 id="制作linuxUSBLive系统盘"><a href="#制作linuxUSBLive系统盘" class="headerlink" title="制作linuxUSBLive系统盘"></a>制作linuxUSBLive系统盘</h1><h2 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h2><ol><li>下载kalilinux （ISO镜像）</li><li>下载Win32 Disk </li><li><p>8G左右的U盘</p><h2 id="二、具体步骤："><a href="#二、具体步骤：" class="headerlink" title="二、具体步骤："></a>二、具体步骤：</h2></li><li><p>Making a Kali Bootable USB Drive</p></li></ol><ul><li>将U盘插入电脑，注意U盘的盘符 </li><li>打开Win32 Disk软件，选择kalinux的iso镜像</li><li>选择U盘，写入</li><li>待写入完成，拔出U盘</li></ul><ol start="2"><li>Kali Linux Live USB Persistence</li></ol><ul><li>将U盘插入电脑，选择引导从U盘启动</li><li>出现选择界面时选择LIVE USB persistence选项</li><li>进入系统后，为系统添加一个persistence分区</li><li>选择磁盘工具，新建分区。分区类型为ext3，名字为persistence</li><li>创建一个挂载点，并将新分区挂载<br>（注：可用fdisk -l 来查看分区情况）</li><li>将内容”/ union” 追加到persistence分区的persistence.conf文件中<br>步骤2.6-2.7参考命令<pre><code>mkdir -p /mnt/my_usbmount /dev/sdb3 /mnt/my_usbecho &quot;/ union&quot; &gt; /mnt/my_usb/persistence.confumount /dev/sdb3</code></pre></li><li>重启</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 网络安全技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 渗透工具 </tag>
-            
-            <tag> Kali </tag>
-            
-            <tag> 系统安装 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>06 运算符</title>
       <link href="/2018/12/18/06%20%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
       <url>/2018/12/18/06%20%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
       
         <content type="html"><![CDATA[<h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><p><img src="http://vps.zsx666.tk/?/images/2018/12/19/sYsy4OQD8j/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A61.png" alt=""></p><h3 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h3><p><img src="http://vps.zsx666.tk/?/images/2018/12/19/8ClKvKduuB/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A62.png" alt=""></p><h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p><img src="http://vps.zsx666.tk/?/images/2018/12/19/X8WZ0WM3qO/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A63.png" alt=""></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java从入门到放弃 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java从入门到放弃 </tag>
-            
-            <tag> Java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Java之HelloWorld</title>
-      <link href="/2018/12/18/Java%E4%B9%8BHelloWorld/"/>
-      <url>/2018/12/18/Java%E4%B9%8BHelloWorld/</url>
-      
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"><br><a id="more"></a></p><pre><code class="java">public class HelloWorld{    public static void main(String[] args){        System.out.println(&quot;HelloWorld&quot;);    }}</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java从入门到放弃 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>01 Java的关键字</title>
-      <link href="/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/"/>
-      <url>/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/</url>
-      
-        <content type="html"><![CDATA[<p>Java关键字是事先定义的，有特别意义的标识符，有时又叫保留字。<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Jm4LJeLwYp/Java%E5%85%B3%E9%94%AE%E5%AD%97.png" alt="Java的关键字"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java从入门到放弃 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java从入门到放弃 </tag>
-            
-            <tag> Java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Java之HelloWorld</title>
-      <link href="/2018/12/18/Java%E6%A8%A1%E6%9D%BF/"/>
-      <url>/2018/12/18/Java%E6%A8%A1%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
@@ -228,11 +186,11 @@
     </entry>
     
     <entry>
-      <title>04 自动类型转换</title>
-      <link href="/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
-      <url>/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
+      <title>Java之HelloWorld</title>
+      <link href="/2018/12/18/Java%E6%A8%A1%E6%9D%BF/"/>
+      <url>/2018/12/18/Java%E6%A8%A1%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/19/lOntgCP61v/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A21.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/kItVB9SXsH/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A22.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/ndvGC0OYXP/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A23.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/W5KNkh4Pqx/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A24.png" alt=""></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
@@ -253,11 +211,53 @@
     </entry>
     
     <entry>
-      <title>07 数组的定义和使用</title>
-      <link href="/2018/12/18/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
-      <url>/2018/12/18/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
+      <title>Java之HelloWorld</title>
+      <link href="/2018/12/18/Java%E4%B9%8BHelloWorld/"/>
+      <url>/2018/12/18/Java%E4%B9%8BHelloWorld/</url>
       
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/19/j2zAKcD6WZ/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A81.png" alt="图片1"><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Mwtx7IEAWy/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A82.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/OCSSrrhJ96/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A83.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/li5QzlFEh5/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A84.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/UhgJkKgCMI/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A85.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/QBsrDGO91r/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A86.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/0qV0HzfkMt/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A87.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/i8kgOZZ6DR/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A88.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/CVerhm1Uar/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A89.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/jx8D4pxnWu/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A810.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/amgaHl0TVq/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A811.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Tzw28vLRPD/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A812.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/TbrntGgAaF/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A813.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/IOIAk5J9PQ/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A814.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/9DzzQjTHFS/07%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A815.png" alt=""></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"><br><a id="more"></a></p><pre><code class="java">public class HelloWorld{    public static void main(String[] args){        System.out.println(&quot;HelloWorld&quot;);    }}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java从入门到放弃 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>04 自动类型转换</title>
+      <link href="/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/images/2018/12/19/cauEZmYccD/1424849080805.jpg" alt="alt post-cover"><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/lOntgCP61v/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A21.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/kItVB9SXsH/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A22.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/ndvGC0OYXP/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A23.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/W5KNkh4Pqx/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A24.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java从入门到放弃 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java从入门到放弃 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>01 Java的关键字</title>
+      <link href="/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <url>/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+      
+        <content type="html"><![CDATA[<p>Java关键字是事先定义的，有特别意义的标识符，有时又叫保留字。<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Jm4LJeLwYp/Java%E5%85%B3%E9%94%AE%E5%AD%97.png" alt="Java的关键字"></p>]]></content>
       
       
       <categories>
