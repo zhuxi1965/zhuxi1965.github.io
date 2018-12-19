@@ -6,17 +6,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   
-  <title>Java之HelloWorld | 个人博客作业</title>
+  <title>更改更新源和中文输入法 | 个人博客作业</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="Java从入门到放弃,Java">
+  <meta name="description" content="1. kali-rolling版本 (Kali 2.0 Kali2017)更新源中科大更新源deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib 浙大deb ht">
+<meta name="keywords" content="渗透工具,Kali,系统安装">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java之HelloWorld">
-<meta property="og:url" content="http://yoursite.com/2018/12/18/Java模板/index.html">
+<meta property="og:title" content="更改更新源和中文输入法">
+<meta property="og:url" content="http://yoursite.com/2018/12/19/更新源、中文输入法/index.html">
 <meta property="og:site_name" content="个人博客作业">
+<meta property="og:description" content="1. kali-rolling版本 (Kali 2.0 Kali2017)更新源中科大更新源deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib 浙大deb ht">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-19T07:39:23.503Z">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/mmOxSQT0cS/error.png">
+<meta property="og:updated_time" content="2018-12-19T09:02:50.042Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Java之HelloWorld">
+<meta name="twitter:title" content="更改更新源和中文输入法">
+<meta name="twitter:description" content="1. kali-rolling版本 (Kali 2.0 Kali2017)更新源中科大更新源deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib 浙大deb ht">
+<meta name="twitter:image" content="http://vps.zsx666.tk/?/images/2018/12/19/mmOxSQT0cS/error.png">
   
     <link rel="alternate" href="/atom.xml" title="个人博客作业" type="application/atom+xml">
   
@@ -132,26 +137,49 @@
     <div class="container post-box">
         <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
             <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
-                <strong>Java之HelloWorld</strong>
+                <strong>更改更新源和中文输入法</strong>
             </h1>
             
             <div class="is-flex align-center">
                 <img class="post-avatar" src="http://vps.zsx666.tk/?/images/2018/12/19/FyBWzHluLC/favcon.gif">
                 <span style="padding:0 10px;"> <span class="sub-title">By</span> Songxin</span>
-                <span class="post-date sub-title">at: 2018-12-18</span>
+                <span class="post-date sub-title">at: 2018-12-19</span>
             </div>
             
                 <div>
                     
-                         <a class="tag is-post-tag" href="/tags/Java从入门到放弃/">Java从入门到放弃</a>
+                         <a class="tag is-post-tag" href="/tags/渗透工具/">渗透工具</a>
                     
-                         <a class="tag is-post-tag" href="/tags/Java/">Java</a>
+                         <a class="tag is-post-tag" href="/tags/Kali/">Kali</a>
+                    
+                         <a class="tag is-post-tag" href="/tags/系统安装/">系统安装</a>
                     
                 </div>
             
         </div>
         <div class="content" style="overflow: auto">
-            
+            <h2 id="1-kali-rolling版本-Kali-2-0-Kali2017-更新源"><a href="#1-kali-rolling版本-Kali-2-0-Kali2017-更新源" class="headerlink" title="1. kali-rolling版本 (Kali 2.0 Kali2017)更新源"></a>1. kali-rolling版本 (Kali 2.0 Kali2017)更新源</h2><h4 id="中科大更新源"><a href="#中科大更新源" class="headerlink" title="中科大更新源"></a>中科大更新源</h4><pre><code>deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+</code></pre><h4 id="浙大"><a href="#浙大" class="headerlink" title="浙大"></a>浙大</h4><pre><code>deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
+deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
+</code></pre><h5 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h5><pre><code>#deb http://http.kali.org/kali kali-rolling main non-free contrib
+#deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+</code></pre><h3 id="更新命令"><a href="#更新命令" class="headerlink" title="更新命令"></a>更新命令</h3><pre><code>vi /etc/apt/source.list
+apt clean
+apt update &amp;&amp; apt upgrade &amp;&amp; apt dist-upgrade 
+</code></pre><p>2018清华源</p>
+<pre><code>deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free 
+deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free 
+</code></pre><h2 id="2-安装中文输入法"><a href="#2-安装中文输入法" class="headerlink" title="2. 安装中文输入法"></a>2. 安装中文输入法</h2><pre><code>apt-get install fcitx  fcitx-googlepinyin//安装中文输入法
+</code></pre><h5 id="错误解决"><a href="#错误解决" class="headerlink" title="错误解决"></a>错误解决</h5><p><img src="http://vps.zsx666.tk/?/images/2018/12/19/mmOxSQT0cS/error.png" alt=""></p>
+<ul>
+<li>方法1：<pre><code>wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+</code></pre></li>
+<li>方法2：<pre><code>root@kali:~# wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2018.1_all.deb
+root@kali:~# apt install ./kali-archive-keyring_2018.1_all.deb
+</code></pre></li>
+</ul>
+
         </div>
         <div class="post-reply">
             
