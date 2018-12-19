@@ -52,15 +52,15 @@
             </a>
             
             <a class="nav-item" href="/">
-                Home
+                主页
             </a>
             
-            <a class="nav-item" href="/works">
-                My Works
+            <a class="nav-item" href="/文章">
+                文章
             </a>
             
             <a class="nav-item" href="/about">
-                About
+                关于
             </a>
             
         </div>
@@ -72,15 +72,15 @@
         <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
             
             <a class="nav-item flex-1" href="/">
-                Home
+                主页
             </a>
             
-            <a class="nav-item flex-1" href="/works">
-                My Works
+            <a class="nav-item flex-1" href="/文章">
+                文章
             </a>
             
             <a class="nav-item flex-1" href="/about">
-                About
+                关于
             </a>
             
         </div>
@@ -120,11 +120,20 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>vlan</strong> <small class="post-date">at: 2018-02-13</small>
+                                <strong>native vlan和接口类型</strong> <small class="post-date">at: 2018-02-13</small>
                                 <br>
-                                #native vlan&#x7684;&#x4F7F;&#x7528;&#xFF1A;
+                                #native vlan的使用：#
 
-&#x8FDB;&#x5165;&#x63A5;&#x53E3;&#x6A21;&#x5F0F;&#x4E2D;&#x7EE7;&#x7684;&#x5C01;&#x88C5;&#x7C7B;&#x578B;&#x662F;802.1Q`interface f0/..
+进入接口模式中继的封装类型是802.1Qinterface f0/12
+switchport mode trunk
+switchport trunk encap dot1q
+
+
+
+设置vlan作为本征vlanswitchport trunk native vlan vlan-id
+vlan-id：1-4096
+
+查看..
                             </p>
                             <button class="button is-info">Read</button>
                         </div>
@@ -151,12 +160,8 @@
   <div class="container has-padding">
     <div>
       <div>
-        <!--请您保留作者署名, 主题制作来之不易-->
-        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
-        <br>
         Copyright © Songxin 2018
         <br>
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
       </div>
     </div>
   </div>
