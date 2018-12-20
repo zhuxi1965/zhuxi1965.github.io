@@ -8,20 +8,15 @@
   
   <title>制作linuxUSBLive系统盘 | 个人博客作业</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="制作linuxUSBLive系统盘一、准备工作： 下载kalilinux （ISO镜像） 下载Win32 Disk  8G左右的U盘 二、具体步骤： Making a Kali Bootable USB Drive    将U盘插入电脑，注意U盘的盘符  打开Win32 Disk软件，选择kalinux的iso镜像 选择U盘，写入 待写入完成，拔出U盘   Kali Linux Live USB">
-<meta name="keywords" content="渗透工具,Kali,系统安装">
+  <meta name="keywords" content="渗透工具,Kali,系统安装">
 <meta property="og:type" content="article">
 <meta property="og:title" content="制作linuxUSBLive系统盘">
 <meta property="og:url" content="http://yoursite.com/2018/12/19/模板/index.html">
 <meta property="og:site_name" content="个人博客作业">
-<meta property="og:description" content="制作linuxUSBLive系统盘一、准备工作： 下载kalilinux （ISO镜像） 下载Win32 Disk  8G左右的U盘 二、具体步骤： Making a Kali Bootable USB Drive    将U盘插入电脑，注意U盘的盘符  打开Win32 Disk软件，选择kalinux的iso镜像 选择U盘，写入 待写入完成，拔出U盘   Kali Linux Live USB">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg">
-<meta property="og:updated_time" content="2018-12-19T06:52:01.950Z">
+<meta property="og:updated_time" content="2018-12-19T12:24:14.663Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="制作linuxUSBLive系统盘">
-<meta name="twitter:description" content="制作linuxUSBLive系统盘一、准备工作： 下载kalilinux （ISO镜像） 下载Win32 Disk  8G左右的U盘 二、具体步骤： Making a Kali Bootable USB Drive    将U盘插入电脑，注意U盘的盘符  打开Win32 Disk软件，选择kalinux的iso镜像 选择U盘，写入 待写入完成，拔出U盘   Kali Linux Live USB">
-<meta name="twitter:image" content="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg">
   
     <link rel="alternate" href="/atom.xml" title="个人博客作业" type="application/atom+xml">
   
@@ -158,38 +153,7 @@
             
         </div>
         <div class="content" style="overflow: auto">
-            <p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"></p>
-<h1 id="制作linuxUSBLive系统盘"><a href="#制作linuxUSBLive系统盘" class="headerlink" title="制作linuxUSBLive系统盘"></a>制作linuxUSBLive系统盘</h1><h2 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h2><ol>
-<li>下载kalilinux （ISO镜像）</li>
-<li>下载Win32 Disk </li>
-<li><p>8G左右的U盘</p>
-<h2 id="二、具体步骤："><a href="#二、具体步骤：" class="headerlink" title="二、具体步骤："></a>二、具体步骤：</h2></li>
-<li><p>Making a Kali Bootable USB Drive</p>
-</li>
-</ol>
-<ul>
-<li>将U盘插入电脑，注意U盘的盘符 </li>
-<li>打开Win32 Disk软件，选择kalinux的iso镜像</li>
-<li>选择U盘，写入</li>
-<li>待写入完成，拔出U盘</li>
-</ul>
-<ol start="2">
-<li>Kali Linux Live USB Persistence</li>
-</ol>
-<ul>
-<li>将U盘插入电脑，选择引导从U盘启动</li>
-<li>出现选择界面时选择LIVE USB persistence选项</li>
-<li>进入系统后，为系统添加一个persistence分区</li>
-<li>选择磁盘工具，新建分区。分区类型为ext3，名字为persistence</li>
-<li>创建一个挂载点，并将新分区挂载<br>（注：可用fdisk -l 来查看分区情况）</li>
-<li>将内容”/ union” 追加到persistence分区的persistence.conf文件中<br>步骤2.6-2.7参考命令<pre><code>mkdir -p /mnt/my_usb
-mount /dev/sdb3 /mnt/my_usb
-echo &quot;/ union&quot; &gt; /mnt/my_usb/persistence.conf
-umount /dev/sdb3
-</code></pre></li>
-<li>重启</li>
-</ul>
-
+            
         </div>
         <div class="post-reply">
             
@@ -212,6 +176,27 @@ umount /dev/sdb3
                 </div>
                 <!-- City版安装代码已完成 -->
             
+            
+            <div id="disqus_thread" style="width: 80%; margin: 0 auto;"></div>
+                <script>
+
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                     var disqus_config = function () {
+                     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                     };
+                     */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://haojen.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             
         </div>
     </div>
