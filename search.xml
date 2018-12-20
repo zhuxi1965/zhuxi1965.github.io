@@ -109,33 +109,6 @@
     </entry>
     
     <entry>
-      <title>制作linuxUSBLive系统盘</title>
-      <link href="/2018/12/19/%E6%A8%A1%E6%9D%BF/"/>
-      <url>/2018/12/19/%E6%A8%A1%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 网络安全技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 渗透工具 </tag>
-            
-            <tag> Kali </tag>
-            
-            <tag> 系统安装 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>更改更新源和中文输入法</title>
       <link href="/2018/12/19/%E6%9B%B4%E6%96%B0%E6%BA%90%E3%80%81%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/"/>
       <url>/2018/12/19/%E6%9B%B4%E6%96%B0%E6%BA%90%E3%80%81%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</url>
@@ -163,11 +136,38 @@
     </entry>
     
     <entry>
-      <title>01 Java的关键字</title>
-      <link href="/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/"/>
-      <url>/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+      <title>制作linuxUSBLive系统盘</title>
+      <link href="/2018/12/19/%E6%A8%A1%E6%9D%BF/"/>
+      <url>/2018/12/19/%E6%A8%A1%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[<p>Java关键字是事先定义的，有特别意义的标识符，有时又叫保留字。<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Jm4LJeLwYp/Java%E5%85%B3%E9%94%AE%E5%AD%97.png" alt="Java的关键字"></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 渗透工具 </tag>
+            
+            <tag> Kali </tag>
+            
+            <tag> 系统安装 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Java之HelloWorld</title>
+      <link href="/2018/12/18/Java%E4%B9%8BHelloWorld/"/>
+      <url>/2018/12/18/Java%E4%B9%8BHelloWorld/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"><br><a id="more"></a></p><pre><code class="java">public class HelloWorld{    public static void main(String[] args){        System.out.println(&quot;HelloWorld&quot;);    }}</code></pre>]]></content>
       
       
       <categories>
@@ -176,14 +176,6 @@
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> Java从入门到放弃 </tag>
-            
-            <tag> Java </tag>
-            
-        </tags>
       
     </entry>
     
@@ -193,31 +185,6 @@
       <url>/2018/12/18/02%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%BB%8B%E7%BB%8D/</url>
       
         <content type="html"><![CDATA[<blockquote><p>Java语言支持的类型分为两类： 基本类型（ Primitive Type） 和引用类型（Reference Type）。<br>基本类型包括boolean类型和数值类型。数值类型有整数类型和浮点类型。整数类型包括byte、short、int、long、char，浮点类型包括float和double<br>char 代表字符型，实际上字符型也是一种整数类型，相当于无符号整数类型 。</p></blockquote><p><img src="http://vps.zsx666.tk/?/images/2018/12/19/dUJTXQW94a/Java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/CFyMwNoRH3/Java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B2.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/yQIxHxBIcA/Java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B3.png" alt=""></p><blockquote><p>图片来自图书 李刚《疯狂Java讲义（第四版）》</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java从入门到放弃 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java从入门到放弃 </tag>
-            
-            <tag> Java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>04 自动类型转换</title>
-      <link href="/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
-      <url>/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
-      
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/images/2018/12/19/cauEZmYccD/1424849080805.jpg" alt="alt post-cover"><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/lOntgCP61v/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A21.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/kItVB9SXsH/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A22.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/ndvGC0OYXP/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A23.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/W5KNkh4Pqx/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A24.png" alt=""></p>]]></content>
       
       
       <categories>
@@ -263,11 +230,11 @@
     </entry>
     
     <entry>
-      <title>Java之HelloWorld</title>
-      <link href="/2018/12/18/Java%E4%B9%8BHelloWorld/"/>
-      <url>/2018/12/18/Java%E4%B9%8BHelloWorld/</url>
+      <title>04 自动类型转换</title>
+      <link href="/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2018/12/18/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
       
-        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/?/images/2018/12/18/s57VmF3ulV/page_background.jpg" alt="alt post-cover"><br><a id="more"></a></p><pre><code class="java">public class HelloWorld{    public static void main(String[] args){        System.out.println(&quot;HelloWorld&quot;);    }}</code></pre>]]></content>
+        <content type="html"><![CDATA[<p><img src="http://vps.zsx666.tk/images/2018/12/19/cauEZmYccD/1424849080805.jpg" alt="alt post-cover"><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/lOntgCP61v/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A21.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/kItVB9SXsH/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A22.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/ndvGC0OYXP/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A23.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/W5KNkh4Pqx/04%20%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A24.png" alt=""></p>]]></content>
       
       
       <categories>
@@ -276,6 +243,39 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Java从入门到放弃 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>01 Java的关键字</title>
+      <link href="/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <url>/2018/12/18/01%20Java%E7%9A%84%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+      
+        <content type="html"><![CDATA[<p>Java关键字是事先定义的，有特别意义的标识符，有时又叫保留字。<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/Jm4LJeLwYp/Java%E5%85%B3%E9%94%AE%E5%AD%97.png" alt="Java的关键字"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java从入门到放弃 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java从入门到放弃 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
       
     </entry>
     
