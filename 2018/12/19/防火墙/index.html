@@ -6,17 +6,36 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   
-  <title>防火墙 | 个人博客作业</title>
+  <title>SSLVPN配置（案例） | 个人博客作业</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="网络安全,防火墙">
+  <meta name="description" content="SSLVPN应用场景 配置步骤： 1、配置SSLVPN 地址池2、配置SSL VPN 实例3、创建SSL VPN 隧道接口所属安全域4、创建隧道接口并绑定SSL VPN 隧道5、创建安全策略，允许通过SSL VPN 到内网的访问。6、添加SCVPN 用户账号7、SCVPN 登陆演示            			   				  var options = {&quot;narrow&quot;:false,&quot;aut">
+<meta name="keywords" content="网络安全,防火墙,SSL VPN">
 <meta property="og:type" content="article">
-<meta property="og:title" content="防火墙">
+<meta property="og:title" content="SSLVPN配置（案例）">
 <meta property="og:url" content="http://yoursite.com/2018/12/19/防火墙/index.html">
 <meta property="og:site_name" content="个人博客作业">
+<meta property="og:description" content="SSLVPN应用场景 配置步骤： 1、配置SSLVPN 地址池2、配置SSL VPN 实例3、创建SSL VPN 隧道接口所属安全域4、创建隧道接口并绑定SSL VPN 隧道5、创建安全策略，允许通过SSL VPN 到内网的访问。6、添加SCVPN 用户账号7、SCVPN 登陆演示            			   				  var options = {&quot;narrow&quot;:false,&quot;aut">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-19T12:24:14.663Z">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/pvzPfvgRlT/bg.jpg">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/pvzPfvgRlT/bg.jpg">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:image" content="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png">
+<meta property="og:updated_time" content="2018-12-26T05:31:23.933Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="防火墙">
+<meta name="twitter:title" content="SSLVPN配置（案例）">
+<meta name="twitter:description" content="SSLVPN应用场景 配置步骤： 1、配置SSLVPN 地址池2、配置SSL VPN 实例3、创建SSL VPN 隧道接口所属安全域4、创建隧道接口并绑定SSL VPN 隧道5、创建安全策略，允许通过SSL VPN 到内网的访问。6、添加SCVPN 用户账号7、SCVPN 登陆演示            			   				  var options = {&quot;narrow&quot;:false,&quot;aut">
+<meta name="twitter:image" content="http://vps.zsx666.tk/?/images/2018/12/19/pvzPfvgRlT/bg.jpg">
   
     <link rel="alternate" href="/atom.xml" title="个人博客作业" type="application/atom+xml">
   
@@ -29,6 +48,8 @@
 <link rel="stylesheet" href="/css/layout.css">
   
 
+<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 </html>
 <body>
@@ -57,10 +78,6 @@
                 主页
             </a>
             
-            <a class="nav-item" href="/文章">
-                文章
-            </a>
-            
             <a class="nav-item" href="/about">
                 关于
             </a>
@@ -75,10 +92,6 @@
             
             <a class="nav-item flex-1" href="/">
                 主页
-            </a>
-            
-            <a class="nav-item flex-1" href="/文章">
-                文章
             </a>
             
             <a class="nav-item flex-1" href="/about">
@@ -132,7 +145,7 @@
     <div class="container post-box">
         <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
             <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
-                <strong>防火墙</strong>
+                <strong>SSLVPN配置（案例）</strong>
             </h1>
             
             <div class="is-flex align-center">
@@ -147,11 +160,27 @@
                     
                          <a class="tag is-post-tag" href="/tags/防火墙/">防火墙</a>
                     
+                         <a class="tag is-post-tag" href="/tags/SSL-VPN/">SSL VPN</a>
+                    
                 </div>
             
         </div>
         <div class="content" style="overflow: auto">
-            
+            <p><img src="http://vps.zsx666.tk/?/images/2018/12/19/pvzPfvgRlT/bg.jpg" alt="alt post-cover"></p>
+<h2 id="SSLVPN应用场景"><a href="#SSLVPN应用场景" class="headerlink" title="SSLVPN应用场景"></a>SSLVPN应用场景</h2><p><img src="http://vps.zsx666.tk/?/images/2018/12/19/pvzPfvgRlT/bg.jpg" alt=""></p>
+<h2 id="配置步骤："><a href="#配置步骤：" class="headerlink" title="配置步骤："></a>配置步骤：</h2><blockquote>
+<p>1、配置SSLVPN 地址池<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br>2、配置SSL VPN 实例<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br>3、创建SSL VPN 隧道接口所属安全域<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br>4、创建隧道接口并绑定SSL VPN 隧道<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br>5、创建安全策略，允许通过SSL VPN 到内网的访问。<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""><br>6、添加SCVPN 用户账号<br>7、SCVPN 登陆演示<br><img src="http://vps.zsx666.tk/?/images/2018/12/19/HI0mLFKtEG/KaliUSB1.png" alt=""></p>
+</blockquote>
+
+        <div id="aplayer-lNJFZbrO" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+			  <script>
+				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]};
+				  options.element = document.getElementById("aplayer-lNJFZbrO");
+				  var ap = new APlayer(options);
+			    window.aplayers || (window.aplayers = []);
+				  window.aplayers.push(ap);
+			  </script>
+
         </div>
         <div class="post-reply">
             

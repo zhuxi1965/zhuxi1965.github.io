@@ -8,18 +8,18 @@
   
   <title>native vlan和接口类型 | 个人博客作业</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#native vlan的使用：#  进入接口模式中继的封装类型是802.1Qinterface f0/12 switchport mode trunk switchport trunk encap dot1q    设置vlan作为本征vlanswitchport trunk native vlan vlan-id vlan-id：1-4096  查看配置结果show interface f0/">
+  <meta name="description" content="一、native vlan的概念  思科部分：native vlan 是Cisco中的概念，默认是vlan1。如果发出的帧，如果没有tag的话，就加上native vlan的tag值发送出去。这就是为什么两端的native vlan 必须是一致的原因。如果某个数据帧的vlan id与出端口的native vlan号相同，该数据包就按照未标记发送。封装类型为isl的未加标记的数据将会丢弃。nativ">
 <meta name="keywords" content="交换技术,vlan,虚拟局域网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="native vlan和接口类型">
 <meta property="og:url" content="http://yoursite.com/2018/02/13/vlan/index.html">
 <meta property="og:site_name" content="个人博客作业">
-<meta property="og:description" content="#native vlan的使用：#  进入接口模式中继的封装类型是802.1Qinterface f0/12 switchport mode trunk switchport trunk encap dot1q    设置vlan作为本征vlanswitchport trunk native vlan vlan-id vlan-id：1-4096  查看配置结果show interface f0/">
+<meta property="og:description" content="一、native vlan的概念  思科部分：native vlan 是Cisco中的概念，默认是vlan1。如果发出的帧，如果没有tag的话，就加上native vlan的tag值发送出去。这就是为什么两端的native vlan 必须是一致的原因。如果某个数据帧的vlan id与出端口的native vlan号相同，该数据包就按照未标记发送。封装类型为isl的未加标记的数据将会丢弃。nativ">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-19T06:30:20.804Z">
+<meta property="og:updated_time" content="2018-12-26T03:50:04.152Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="native vlan和接口类型">
-<meta name="twitter:description" content="#native vlan的使用：#  进入接口模式中继的封装类型是802.1Qinterface f0/12 switchport mode trunk switchport trunk encap dot1q    设置vlan作为本征vlanswitchport trunk native vlan vlan-id vlan-id：1-4096  查看配置结果show interface f0/">
+<meta name="twitter:description" content="一、native vlan的概念  思科部分：native vlan 是Cisco中的概念，默认是vlan1。如果发出的帧，如果没有tag的话，就加上native vlan的tag值发送出去。这就是为什么两端的native vlan 必须是一致的原因。如果某个数据帧的vlan id与出端口的native vlan号相同，该数据包就按照未标记发送。封装类型为isl的未加标记的数据将会丢弃。nativ">
   
     <link rel="alternate" href="/atom.xml" title="个人博客作业" type="application/atom+xml">
   
@@ -60,10 +60,6 @@
                 主页
             </a>
             
-            <a class="nav-item" href="/文章">
-                文章
-            </a>
-            
             <a class="nav-item" href="/about">
                 关于
             </a>
@@ -78,10 +74,6 @@
             
             <a class="nav-item flex-1" href="/">
                 主页
-            </a>
-            
-            <a class="nav-item flex-1" href="/文章">
-                文章
             </a>
             
             <a class="nav-item flex-1" href="/about">
@@ -156,34 +148,28 @@
             
         </div>
         <div class="content" style="overflow: auto">
-            <p>#native vlan的使用：#</p>
+            <h1 id="一、native-vlan的概念"><a href="#一、native-vlan的概念" class="headerlink" title="一、native vlan的概念"></a>一、native vlan的概念</h1><blockquote>
 <ol>
-<li>进入接口模式中继的封装类型是802.1Q<pre><code>interface f0/12
+<li>思科部分：<br>native vlan 是Cisco中的概念，默认是vlan1。如果发出的帧，如果没有tag的话，就加上native vlan的tag值发送出去。这就是为什么两端的native vlan 必须是一致的原因。如果某个数据帧的vlan id与出端口的native vlan号相同，该数据包就按照未标记发送。封装类型为isl的未加标记的数据将会丢弃。native vlan可以被指定成任意的vlan 号，它不依赖于管理vlan。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>华为<br>以太网端口有三种类型：Access、Hybrid、Trunk。<br>Access类型的端口只能属于1个VLAN。一般用于连接计算机的端口；<br>Trunk类型的端口可以属于多个VLAN，可以接收和发送多个VLAN的报文，一般用于交换机之间的连接端口；<br>Hybrid端口可以属于多个VLAN，可以接收和发送多个VLAN的报文，可以用于交换机之间的连接，也可以用于连接用户计算机。<br>Hybrid端口和Trunk端口的不同指出在于Hybrid端口可以允许多个VLAn的报文发送时不打标签，而Trunk端口只允许缺省VLAN（本征VLAn）的报文发送时不打标签。<br>Access端口只属于1个1VLAN，所以它的缺省VLAN就是它所在的VLAN，不用设置；<br>Hybrid端口和TRunkduank属于多个VLAn，所以需要设置缺省VLAN。缺省情况下,Hybrid端口和Trunk端口的缺省VLAn为Vlan1,。<br>如果设置了端口的缺省VLAN ID，当端口=接收到不带VLAN tag的报文后，将报文转发到属于缺省VLAN的端口；<br>当端口发送带VLAn tag的报文时，如果该报文的VLAn ID与端口的缺省的VLAn ＩＤ相同，则系统将去掉报文的Vlan Tag，然后再发送该报文。<br>Hybrid端口或Trunk端口的缺省Vlan ID和项链的对端交换机的Hybrid端口或Trunk端口的缺省Vlan ID必须一致，否则报文将不能正确传输。</li>
+</ol>
+</blockquote>
+<h1 id="二、native-vlan的使用："><a href="#二、native-vlan的使用：" class="headerlink" title="二、native vlan的使用："></a>二、native vlan的使用：</h1><ol>
+<li>进入接口模式，设置链路封装类型为802.1Q<pre><code>interface f0/12
 switchport mode trunk
 switchport trunk encap dot1q
 </code></pre></li>
-</ol>
-<ol start="2">
-<li>设置vlan作为本征vlan<pre><code>switchport trunk native vlan vlan-id
+<li>设置vlan为本征vlan<pre><code>switchport trunk native vlan vlan-id
 vlan-id：1-4096
 </code></pre></li>
 <li>查看配置结果<pre><code>show interface f0/12 switchport
 </code></pre></li>
 </ol>
-<p>native vlan 是Cisco中的概念，默认是vlan1。如果发出的帧，如果没有tag的话，就加上native vlan的tag值发送出去。这就是为什么两端的native vlan 必须是一致的原因。如果某个数据帧的vlan id与出端口的native vlan号相同，该数据包就按照未标记发送。封装类型为isl的未加标记的数据将会丢弃。native vlan可以被指定成任意的vlan 号，它不依赖于管理vlan。</p>
-<p>华为</p>
-<p>  以太网端口有三种类型：Access、Hybrid、Trunk。</p>
-<p>  Access类型的端口只能属于1个VLAN。一般用于连接计算机的端口；</p>
-<p>  Trunk类型的端口可以属于多个VLAN，可以接收和发送多个VLAN的报文，一般用于交换机之间的连接端口；</p>
-<p>  Hybrid端口可以属于多个VLAN，可以接收和发送多个VLAN的报文，可以用于交换机之间的连接，也可以用于连接用户计算机。</p>
-<p>  Hybrid端口和Trunk端口的不同指出在于Hybrid端口可以允许多个VLAn的报文发送时不打标签，而Trunk端口只允许缺省VLAN（本征VLAn）的报文发送时不打标签。</p>
-<p>  Access端口只属于1个1VLAN，所以它的缺省VLAN就是它所在的VLAN，不用设置；</p>
-<p>Hybrid端口和TRunkduank属于多个VLAn，所以需要设置缺省VLAn。缺省情况下,Hybrid端口和Trunk端口的缺省VLAn为Vlan1,。</p>
-<p>如果设置了端口的缺省VLAN ID，当端口=接收到不带VLAN tag的报文后，将报文转发到属于缺省VLAN的端口；</p>
-<p>当端口发送带VLAn tag的报文时，如果该报文的VLAn ID与端口的缺省的VLAn ＩＤ相同，则系统将去掉报文的ＶＬＡＮ　ｔａｇ，然后再发送该报文。</p>
-<p>Ｈｙｂｒｉｄ端口或Ｔｒｕｎｋ端口的缺省ＶＬＡｎ　ＩＤ和项链的对端交换机的Ｈｙｂｒｉｄ端口或Ｔｒｕｎｋ端口的缺省ＶＬＡｎ　ＩＤ必须一致，否则报文将不能正确传输。</p>
-<p>实例，华为的Ｈｙｂｒｉｄ模式</p>
-<pre><code class="c">[Switch-Ethernet0/1]　int e0/1
+<h2 id="gt-实例：华为的Hybrid模式"><a href="#gt-实例：华为的Hybrid模式" class="headerlink" title="&gt; 实例：华为的Hybrid模式"></a>&gt; 实例：华为的Hybrid模式</h2><pre><code>[Switch-Ethernet0/1]　int e0/1
 
 [Switch-Ethernet0/1] port link-type hybrid
 
@@ -198,11 +184,10 @@ vlan-id：1-4096
 [Switch-Ethernet0/1] port hybrid pvid vlan 20
 
 [Switch-Ethernet0/1] port hybrid vlan 10 20 untagged
-</code></pre>
-<p>  此时接口e0/1和e0/2下的所接的PC是可以互相通信的，但同时的数据所走的往返vlan是不同的。</p>
-<p>  以下以int e0/1下的所连接的pc1访问int e0/2下所连接的pc2为例：</p>
-<pre><code>pc1所发送的数据，由int e0/1所在的pvid vlan10封装vlan10的标记后送入交换机，交换机发现int e0/2允许vlan 10的数据通过，于是数据被转发到int e0/2上，由于int e0/2上vlan 10是untagged的，于是交换机此时取出数据包上的vlan的标记，以普通报的形式发给pc2，此时pc1-&gt;pc2走的是vlan10的。然后pc2给pc1回包，pc2所发的数据，由int e0/2坐在的pvid 20封装vlan20的标记后送入交换机，交换机发现int e0/1允许vlan 20的数据通过，于是数据被转发到int e0/1上，由于int e0/1上的vlan20 是untagged的，于是交换机此时去除数据包上的vlan20 的标记，以普通包的方式给pc1，此时pc2-&gt;pc1走的是vlan20。
-</code></pre>
+</code></pre><blockquote>
+<p>此时接口e0/1和e0/2下的所接的PC是可以互相通信的，但同时的数据所走的往返vlan是不同的。<br>以下以int e0/1下的所连接的pc1访问int e0/2下所连接的pc2为例：<br>    pc1所发送的数据，由int e0/1所在的pvid vlan10封装vlan10的标记后送入交换机，交换机发现int e0/2允许vlan 10的数据通过，于是数据被转发到int e0/2上，由于int e0/2上vlan 10是untagged的，于是交换机此时取出数据包上的vlan的标记，以普通报的形式发给pc2，此时pc1-&gt;pc2走的是vlan10的。然后pc2给pc1回包，pc2所发的数据，由int e0/2坐在的pvid 20封装vlan20的标记后送入交换机，交换机发现int e0/1允许vlan 20的数据通过，于是数据被转发到int e0/1上，由于int e0/1上的vlan20 是untagged的，于是交换机此时去除数据包上的vlan20 的标记，以普通包的方式给pc1，此时pc2-&gt;pc1走的是vlan20。</p>
+</blockquote>
+
         </div>
         <div class="post-reply">
             

